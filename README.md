@@ -5,14 +5,19 @@ Python based project to find Potential buggy lines of code in any Github reposit
 
 ## Installation
 ```
+#Install PyQT4
+$ sudo apt-get install python-qt4
+
 # Install tkinter
 $ apt-get install python-tk 
+
 $ git clone https://github.com/satwikkansal/Bugs-Annoy.git
 $ cd Bugs-Annoy
 $ pip install -r requirements.txt
 $ python gui.py
 
 ```
+**Note:** Currently this project works only on Eclipse Project which you can also find in this repository. The support for any github repsitory will be added soon!
 
 ## Stage 1 Milestones:
 - Setup and UI in PyQT4 [x]
